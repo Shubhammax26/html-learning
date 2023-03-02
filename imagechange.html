@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> image change </h1>
+    <img id ="ben" src="image/ben.jfif" >
+    <p id="ben2"></p>
+    <button onclick="change()">change</button>
+    <button type="reset" onclick="reset()">reset</button>
+    <script>
+        function change(){
+           
+            document.getElementById('ben').src="image/galapagh.jfif";
+        }
+        function reset(){
+            document.getElementById('ben').src="image/ben.jfif";
+        }
+    </script>
+</body>
+</html>
